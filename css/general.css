@@ -58,3 +58,21 @@ h2 {
     font-size: 4.8rem;
   }
 }
+
+/** Links */
+
+a {
+  text-decoration: none;
+}
+
+.link-text:link,
+.link-text:visited {
+  font-weight: 500;
+  color: var(--color-secondary);
+  transition: color 0.15s;
+}
+
+.link-text:hover,
+.link-text::after {
+  color: #5e07cd;
+}
