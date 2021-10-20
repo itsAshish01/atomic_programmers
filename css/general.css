@@ -134,3 +134,51 @@ a {
 .icon--round--white:hover {
   background: var(--color-secondary);
 }
+
+/** Buttons */
+
+.btn {
+  background: none;
+  border-radius: 40px;
+  border: 2px solid;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 1rem 0;
+  padding: 1.4rem 2.8rem;
+  /* padding: 2rem 3rem; */
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+
+.btn--primary {
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  transition: all 0.3s;
+}
+
+.btn--primary:hover {
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+.btn--secondary {
+  color: var(--color-secondary);
+  border: 2px solid var(--color-secondary);
+  transition: all 0.3s;
+}
+
+.btn--secondary:hover {
+  background: var(--color-secondary);
+  color: var(--color-white);
+}
+
+.btn--white {
+  color: var(--color-white);
+  border: 2px solid var(--color-white);
+}
+
+.btn--white:hover {
+  background: var(--color-white);
+  color: var(--color-secondary);
+}
