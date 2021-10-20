@@ -186,7 +186,7 @@ a {
 /** Inputs */
 
 .input {
-  padding: 1.5rem 3.5rem;
+  padding: 1.5rem 1.5rem;
   border: 2px solid var(--color-primary);
   border-radius: 5px;
   color: var(--color-primary);
@@ -195,6 +195,16 @@ a {
 
 ::placeholder {
   color: #c2c8e0;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.input-group > label {
+  font-weight: 500;
 }
 
 @media screen and (min-width: 1024px) {
