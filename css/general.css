@@ -182,3 +182,23 @@ a {
   background: var(--color-white);
   color: var(--color-secondary);
 }
+
+/** Inputs */
+
+.input {
+  padding: 1.5rem 3.5rem;
+  border: 2px solid var(--color-primary);
+  border-radius: 5px;
+  color: var(--color-primary);
+  font-size: 2rem;
+}
+
+::placeholder {
+  color: #c2c8e0;
+}
+
+@media screen and (min-width: 1024px) {
+  .input {
+    font-size: 1.8rem;
+  }
+}
