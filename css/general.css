@@ -105,7 +105,32 @@ a {
 
 /** Icons */
 
-.list__icon {
-  font-size: 3rem;
+.icon {
+  font-size: 30px;
   color: var(--color-secondary);
+}
+
+.icon--round {
+  padding: 1.2rem;
+  border-radius: 50%;
+}
+
+.icon--round--secondary {
+  border: 2px solid var(--color-secondary);
+  transition: background 0.3s;
+}
+
+.icon--round--secondary:hover {
+  background: var(--color-secondary);
+  color: var(--color-white);
+}
+
+.icon--round--white {
+  border: 2px solid var(--color-white);
+  color: var(--color-white);
+  transition: background 0.3s;
+}
+
+.icon--round--white:hover {
+  background: var(--color-secondary);
 }
