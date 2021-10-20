@@ -176,6 +176,7 @@ a {
 .btn--white {
   color: var(--color-white);
   border: 2px solid var(--color-white);
+  transition: all 0.3s;
 }
 
 .btn--white:hover {
@@ -236,4 +237,15 @@ a {
   .grid--1x3 {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+
+/** Callouts */
+
+.callout {
+  padding: 5.6rem 2rem;
+  border-radius: 15px;
+}
+
+.callout--secondary {
+  background: var(--color-secondary);
 }
