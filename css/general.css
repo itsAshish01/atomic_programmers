@@ -249,3 +249,32 @@ a {
 .callout--secondary {
   background: var(--color-secondary);
 }
+
+/** Blocks */
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.block {
+  padding: 9.6rem 2.4rem;
+}
+
+.block__header {
+  text-align: center;
+}
+
+.block--dark {
+  background: linear-gradient(
+    to bottom,
+    #141c3a 0%,
+    #141c3a 62.5%,
+    #fff 62.5%,
+    #fff 100%
+  );
+}
+
+.block--dark .block__heading {
+  color: var(--color-white);
+}
