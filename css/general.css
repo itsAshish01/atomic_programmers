@@ -298,7 +298,7 @@ a {
   max-height: 0;
   opacity: 0;
   overflow: hidden;
-  transition: all 0.3s;
+  transition: all 0.7s;
 }
 
 .collapsible--expanded .collapsible__close {
