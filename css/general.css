@@ -278,3 +278,38 @@ a {
 .block--dark .block__heading {
   color: var(--color-white);
 }
+
+/** Collapsibles */
+
+.collapsible__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collapsible__heading {
+  font-size: 3rem;
+}
+
+.collapsible__close {
+  display: none;
+}
+
+.collapsible__content {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.collapsible--expanded .collapsible__close {
+  display: block;
+}
+
+.collapsible--expanded .collapsible__menu {
+  display: none;
+}
+
+.collapsible--expanded .collapsible__content {
+  max-height: 100vh;
+  opacity: 1;
+}
