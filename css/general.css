@@ -151,6 +151,11 @@ a {
   gap: 15px;
 }
 
+textarea {
+  resize: vertical;
+  height: 15rem;
+}
+
 /** Buttons */
 
 .btn {
