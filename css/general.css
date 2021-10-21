@@ -17,6 +17,10 @@ html {
   padding: 0;
 }
 
+img {
+  width: 100%;
+}
+
 /** Typography */
 
 body {
@@ -44,6 +48,10 @@ h2 {
 }
 
 @media screen and (min-width: 768px) {
+  h1 {
+    font-size: 5.6rem;
+  }
+
   h2 {
     font-size: 3.6rem;
   }
@@ -227,7 +235,7 @@ a {
   display: grid;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .grid--1x2 {
     grid-template-columns: repeat(2, 1fr);
   }
