@@ -121,6 +121,7 @@ a {
 .icon--round {
   padding: 1.2rem;
   border-radius: 50%;
+  display: inline-flex;
 }
 
 .icon--round--secondary {
