@@ -187,3 +187,59 @@
     display: block;
   }
 }
+
+/** About */
+
+.block--about {
+  padding-top: 4.8rem;
+  background: linear-gradient(
+    to bottom,
+    #141c3a 0%,
+    #141c3a 43%,
+    #fff 43%,
+    #fff 100%
+  );
+}
+
+.block--about .grid {
+  margin-top: 4.8rem;
+  justify-items: center;
+  gap: 3.2rem;
+}
+
+.block--about .profile-card {
+  max-width: 40rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .block--about {
+    background: linear-gradient(
+      to bottom,
+      #141c3a 0%,
+      #141c3a 53%,
+      #fff 53%,
+      #fff 100%
+    );
+  }
+
+  .block--about .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+  }
+
+  .block--about .profile-card {
+    max-width: 30rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .block--about {
+    background: linear-gradient(
+      to bottom,
+      #141c3a 0%,
+      #141c3a 55%,
+      #fff 55%,
+      #fff 100%
+    );
+  }
+}

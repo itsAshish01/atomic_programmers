@@ -239,12 +239,13 @@ a {
 
 .profile-card {
   align-items: center;
+  background: var(--color-white);
   border-radius: 15px;
   box-shadow: 1px 5px 17px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
-  padding: 1rem 2rem;
+  padding: 1rem 2rem 2.4rem 2rem;
 }
 
 .profile-card__header {
@@ -273,7 +274,7 @@ a {
 
 @media screen and (min-width: 768px) {
   .profile-card {
-    padding: 1.6rem 3.2rem;
+    padding: 1.6rem 3.2rem 2.4rem 3.2rem;
   }
 }
 
@@ -337,7 +338,7 @@ a {
 }
 
 .block {
-  padding: 9.6rem 2.4rem;
+  padding: 9.6rem 2rem;
 }
 
 .block__header {
@@ -348,13 +349,13 @@ a {
   background: linear-gradient(
     to bottom,
     #141c3a 0%,
-    #141c3a 62.5%,
-    #fff 62.5%,
+    #141c3a 50%,
+    #fff 50%,
     #fff 100%
   );
 }
 
-.block--dark .block__heading {
+.block--dark .block__header {
   color: var(--color-white);
 }
 
