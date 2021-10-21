@@ -410,3 +410,29 @@
     height: 24rem;
   }
 }
+
+/** Footer */
+
+.block--footer {
+  background: var(--color-primary);
+}
+
+.block--footer__image {
+  width: 30%;
+  margin-bottom: 2.4rem;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.footer__slogan {
+  font-weight: 500;
+}
+
+.footer__span {
+  display: block;
+}
