@@ -24,15 +24,9 @@
   align-self: center;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
   .callout__content {
-    white-space: nowrap;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .callout__content {
-    padding: 0 1rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -383,6 +377,7 @@
 
 .btn--message {
   margin-top: 4.8rem;
+  margin-bottom: 6.4rem;
   width: 100%;
 }
 
@@ -510,4 +505,10 @@
   .block--design .grid {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+/** Callout */
+
+.block--footer .callout--secondary {
+  margin-top: -18rem;
 }
