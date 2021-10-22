@@ -204,6 +204,14 @@
   max-width: 40rem;
 }
 
+.block__about__description {
+  line-height: 2;
+}
+
+.block__about__description span {
+  display: block;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .block--about {
     background: linear-gradient(
@@ -499,6 +507,9 @@
 .block--design .grid {
   margin-top: 5.6rem;
   gap: 2.4rem;
+}
+
+.btn--design {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
