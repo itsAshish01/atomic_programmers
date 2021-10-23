@@ -7,6 +7,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -77,7 +78,7 @@ a {
 .link-text:visited {
   font-weight: 500;
   color: var(--color-secondary);
-  transition: color 0.15s;
+  transition: color 0.15s ease-in-out;
 }
 
 .link-text:hover,
@@ -126,7 +127,7 @@ a {
 
 .icon--round--secondary {
   border: 2px solid var(--color-secondary);
-  transition: background 0.3s;
+  transition: background 0.3s ease-in-out;
 }
 
 .icon--round--secondary:hover {
@@ -137,7 +138,7 @@ a {
 .icon--round--white {
   border: 2px solid var(--color-white);
   color: var(--color-white);
-  transition: background 0.3s;
+  transition: background 0.3s ease-in-out;
 }
 
 .icon--round--white:hover {
@@ -175,7 +176,7 @@ textarea {
 .btn--primary {
   color: var(--color-primary);
   border: 2px solid var(--color-primary);
-  transition: all 0.3s;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn--primary:hover {
@@ -186,7 +187,7 @@ textarea {
 .btn--secondary {
   color: var(--color-secondary);
   border: 2px solid var(--color-secondary);
-  transition: all 0.3s;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn--secondary:hover {
@@ -197,7 +198,7 @@ textarea {
 .btn--white {
   color: var(--color-white);
   border: 2px solid var(--color-white);
-  transition: all 0.3s;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn--white:hover {
@@ -208,7 +209,7 @@ textarea {
 .btn--special {
   color: var(--color-white);
   border: 2px solid var(--color-secondary);
-  transition: all 0.3s;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn--special:hover {

@@ -17,7 +17,7 @@
     <title>Atomic Programmers</title>
   </head>
   <body>
-    <header>
+    <header id="header">
       <nav class="nav collapsible">
         <a class="logo--header" href="/"
           ><img src="assets/logo-header.svg" alt="Atomic Programmers logo"
@@ -31,19 +31,19 @@
           name="close-outline"
         ></ion-icon>
         <ul class="list nav__list collapsible__content">
-          <li class="nav__item"><a href="#">Inside the atom</a></li>
-          <li class="nav__item"><a href="#">Designs</a></li>
-          <li class="nav__item"><a href="#">Websites</a></li>
-          <li class="nav__item"><a href="#">Why Us?</a></li>
+          <li class="nav__item"><a href="#about">Inside the atom</a></li>
+          <li class="nav__item"><a href="#design">Designs</a></li>
+          <li class="nav__item"><a href="#website">Websites</a></li>
+          <li class="nav__item"><a href="#why">Why Us?</a></li>
           <li class="nav__item">
-            <a class="btn btn--secondary" href="#">Say Hello</a>
+            <a class="btn btn--secondary" href="#message">Say Hello</a>
           </li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section class="block hero">
+      <section class="block hero" id="hero">
         <div class="container container__hero grid grid--1x2">
           <div class="block__header hero__content">
             <h1 class="hero__heading">
@@ -56,7 +56,7 @@
                 and We love what we do.</span
               >
             </p>
-            <a href="#" class="btn btn--primary btn--with-icon"
+            <a href="#about" class="btn btn--primary btn--with-icon"
               ><span>Look Inside</span
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +88,7 @@
         </div>
       </section>
 
-      <section class="block block--dark block--about">
+      <section class="block block--dark block--about" id="about">
         <div class="container">
           <div class="block__header">
             <h2>Inside the atom</h2>
@@ -168,19 +168,50 @@
         </div>
       </section>
 
-      <section class="block block--design">
+      <section class="block block--design" id="design">
         <div class="container">
           <div class="block__header">
             <h2>Designs</h2>
             <p>
-              Here are a few design projects I've worked on recently. Want to
-              see more? <span><a href="#" class="link-text">Email us</a></span
+              Here are a few design projects we have worked on. Want to use it
+              in your projects?
+              <span><a href="#" class="link-text">Email us</a></span
               >.
             </p>
           </div>
           <div class="grid grid--1x3">
             <figure class="card card--design">
-              <img class="card--design__image" src="assets/1.png" alt="" />
+              <img
+                class="card--design__image"
+                src="assets/design-images-6.png"
+                alt=""
+              />
+              <figcaption class="card--design__overlay">
+                <h1 class="card--design__overlay__heading">Graphics</h1>
+                <a href="" class="btn btn--special card--design__overlay__btn"
+                  >See more &ThinSpace;&gt;
+                </a>
+              </figcaption>
+            </figure>
+            <figure class="card card--design">
+              <img
+                class="card--design__image"
+                src="assets/design-images-5.png"
+                alt=""
+              />
+              <figcaption class="card--design__overlay">
+                <h1 class="card--design__overlay__heading">Landing Pages</h1>
+                <a href="" class="btn btn--special card--design__overlay__btn"
+                  >See more &ThinSpace;&gt;
+                </a>
+              </figcaption>
+            </figure>
+            <figure class="card card--design">
+              <img
+                class="card--design__image"
+                src="assets/design-images-2.png"
+                alt=""
+              />
               <figcaption class="card--design__overlay">
                 <h1 class="card--design__overlay__heading">Logos</h1>
                 <a href="" class="btn btn--special card--design__overlay__btn"
@@ -189,67 +220,68 @@
               </figcaption>
             </figure>
             <figure class="card card--design">
-              <img class="card--design__image" src="assets/1.png" alt="" />
+              <img
+                class="card--design__image"
+                src="assets/design-images-4.png"
+                alt=""
+              />
               <figcaption class="card--design__overlay">
-                <h1 class="card--design__overlay__heading">Logos</h1>
+                <h1 class="card--design__overlay__heading">Mockups</h1>
                 <a href="" class="btn btn--special card--design__overlay__btn"
                   >See more &ThinSpace;&gt;
                 </a>
               </figcaption>
             </figure>
             <figure class="card card--design">
-              <img class="card--design__image" src="assets/1.png" alt="" />
+              <img
+                class="card--design__image"
+                src="assets/design-images-3.png"
+                alt=""
+              />
               <figcaption class="card--design__overlay">
-                <h1 class="card--design__overlay__heading">Logos</h1>
+                <h1 class="card--design__overlay__heading">Posters</h1>
                 <a href="" class="btn btn--special card--design__overlay__btn"
                   >See more &ThinSpace;&gt;
                 </a>
               </figcaption>
             </figure>
             <figure class="card card--design">
-              <img class="card--design__image" src="assets/1.png" alt="" />
+              <img
+                class="card--design__image"
+                src="assets/design-images-1.png"
+                alt=""
+              />
               <figcaption class="card--design__overlay">
-                <h1 class="card--design__overlay__heading">Logos</h1>
-                <a href="" class="btn btn--special card--design__overlay__btn"
-                  >See more &ThinSpace;&gt;
-                </a>
-              </figcaption>
-            </figure>
-            <figure class="card card--design">
-              <img class="card--design__image" src="assets/1.png" alt="" />
-              <figcaption class="card--design__overlay">
-                <h1 class="card--design__overlay__heading">Logos</h1>
-                <a href="" class="btn btn--special card--design__overlay__btn"
-                  >See more &ThinSpace;&gt;
-                </a>
-              </figcaption>
-            </figure>
-            <figure class="card card--design">
-              <img class="card--design__image" src="assets/1.png" alt="" />
-              <figcaption class="card--design__overlay">
-                <h1 class="card--design__overlay__heading">Logos</h1>
+                <h1 class="card--design__overlay__heading">Product Design</h1>
                 <a href="" class="btn btn--special card--design__overlay__btn"
                   >See more &ThinSpace;&gt;
                 </a>
               </figcaption>
             </figure>
           </div>
-          <button class="btn btn--secondary btn--message btn--design">
-            See more on dribble
-          </button>
+          <div class="btn--design__container">
+            <a class="btn btn--secondary btn--design">
+              <ion-icon name="logo-dribbble"></ion-icon
+              ><span>See more on dribble</span>
+            </a>
+          </div>
         </div>
       </section>
 
-      <section class="block block--dark block--website">
+      <section class="block block--dark block--website" id="website">
         <div class="container">
           <div class="block__header">
-            <h2>Websites</h2>
+            <h2>Projects</h2>
             <p class="block--website__description">
-              I'm a bit of a digital product junky. Over the years, I've used
-              hundreds of web and mobile<span>
-                apps in different industries and verticals. Eventually, I
-                decided that it would be a fun</span
-              ><span> challenge to try designing and building my own.</span>
+              We love to design & develop good products. Taking inspiration from
+              different great products out there,<span
+                >Eventually, We decided that it would be a fun challenge to try
+                designing and building our own.</span
+              >
+              <span
+                >Building products that are great on both performance &
+                experience aspect.</span
+              >
             </p>
           </div>
           <div class="grid grid--1x3">
@@ -353,7 +385,7 @@
         </div>
       </section>
 
-      <section class="block block--why">
+      <section class="block block--why" id="why">
         <div class="container">
           <div class="block__header">
             <h2>Why Atomic Programmers?</h2>
@@ -389,7 +421,7 @@
         </div>
       </section>
 
-      <section class="block block--dark block--message">
+      <section class="block block--dark block--message" id="message">
         <div class="container message__container">
           <div class="block__header">
             <h2>Have a message?</h2>
@@ -432,7 +464,7 @@
       </section>
     </main>
 
-    <footer class="block block--dark block--footer">
+    <footer class="block block--dark block--footer" id="footer">
       <div class="container footer__container">
         <div class="callout callout--secondary">
           <div class="grid grid--1x3">
@@ -447,11 +479,12 @@
         </div>
 
         <div class="block__header">
-          <img
-            class="block--footer__image"
-            src="assets/logo-footer.svg"
-            alt="Atomic Programmers logo"
-          />
+          <a href="#header"
+            ><img
+              class="block--footer__image"
+              src="assets/logo-footer.svg"
+              alt="Atomic Programmers logo"
+          /></a>
           <p class="footer__slogan">
             Living, learning, & leveling up<span class="footer__span">
               one day at a time.</span
