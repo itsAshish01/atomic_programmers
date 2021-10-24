@@ -311,6 +311,10 @@
   line-height: 1.7;
 }
 
+.block--website img {
+  width: 50%;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .block--website {
     background: linear-gradient(
