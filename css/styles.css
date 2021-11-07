@@ -297,6 +297,10 @@
 
 /** Websites */
 
+.block--website img {
+  height: 4.2rem;
+}
+
 .block--website {
   background: linear-gradient(
     to bottom,
@@ -314,10 +318,6 @@
 
 .block--website__description {
   line-height: 1.7;
-}
-
-.block--website img {
-  height: 15%;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
